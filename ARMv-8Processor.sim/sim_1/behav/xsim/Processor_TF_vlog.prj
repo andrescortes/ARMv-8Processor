@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ARMv-8Processor.srcs/sources_1/imports/ARMV_8Proccessor-master - copia/ALU.v" \
+"../../../../ARMv-8Processor.srcs/sources_1/imports/ARMV_8Proccessor-master - copia/Adder_Base.v" \
+"../../../../ARMv-8Processor.srcs/sources_1/imports/ARMV_8Proccessor-master - copia/Adder_Pri.v" \
+"../../../../ARMv-8Processor.srcs/sources_1/imports/ARMV_8Proccessor-master - copia/Control_Unit.v" \
+"../../../../ARMv-8Processor.srcs/sources_1/imports/ARMV_8Proccessor-master - copia/Data_Memory.v" \
+"../../../../ARMv-8Processor.srcs/sources_1/imports/ARMV_8Proccessor-master - copia/Instruction_Memory.v" \
+"../../../../ARMv-8Processor.srcs/sources_1/imports/ARMV_8Proccessor-master - copia/Processor.v" \
+"../../../../ARMv-8Processor.srcs/sources_1/imports/ARMV_8Proccessor-master - copia/Program_Counter.v" \
+"../../../../ARMv-8Processor.srcs/sources_1/imports/ARMV_8Proccessor-master - copia/Register_File.v" \
+"../../../../ARMv-8Processor.srcs/sources_1/imports/ARMV_8Proccessor-master - copia/Sign_Extend.v" \
+"../../../../ARMv-8Processor.srcs/sim_1/imports/ARMV_8Proccessor-master/Processor_TF.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
